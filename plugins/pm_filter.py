@@ -1917,10 +1917,10 @@ async def auto_filter(client, msg, spoll=False):
     if settings["button"]:
         cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {message.chat.title} \n\n</b>"
     else:
-        # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
-        cap = f"<b>𝐏𝐞𝐫𝐬𝐨𝐧 {message.from_user.mention}\n𝐓𝐨𝐭𝐚𝐥 𝐅𝐢𝐥𝐞 {total_results}\n𝐌𝐨𝐯𝐢𝐞 {search}\n\n©️@ROCKERSBACKUP</b>"
+        # cap = f"<b>➢ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐏𝐞𝐫𝐬𝐨𝐧 {message.from_user.mention}\n➢ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐓𝐨𝐭𝐚𝐥 𝐅𝐢𝐥𝐞 {total_results}\n➢ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞 {search}\n\n</b>"        
+        cap = f"<b>➢ 𝐏𝐞𝐫𝐬𝐨𝐧 {message.from_user.mention}\n➢𝐓𝐨𝐭𝐚𝐥 𝐅𝐢𝐥𝐞 {total_results}\n➢𝐌𝐨𝐯𝐢𝐞 {search}\n\n</b>"
         for file in files:
-            cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
+            cap += f"<b>📥 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
 
     # if imdb and imdb.get('poster'):
     #     try:
