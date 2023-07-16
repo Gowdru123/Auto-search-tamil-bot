@@ -1,4 +1,4 @@
-From @TroJanZheX
+@TroJanZheX
 import asyncio
 import re
 import ast
