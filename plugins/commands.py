@@ -269,7 +269,7 @@ async def start(client, message):
                         InlineKeyboardButton('✅ Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ ✅', url=g)
                     ], [
                         InlineKeyboardButton('❗ how to download ❗', url=await get_tutorial(chat_id)),
-                        InlineKeyboardButton('❕ NEW HD MOVIE'S ❕', url='https://t.me/+D7L-rX9lKA43MGRl')
+                        InlineKeyboardButton(' NEW HD MOVIE'S ', url='https://t.me/+D7L-rX9lKA43MGRl')
                     ]
                 ]
             )
@@ -291,7 +291,7 @@ async def start(client, message):
                         InlineKeyboardButton('✅ Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ ✅', url=g)
                     ], [
                         InlineKeyboardButton('❗ Hᴏᴡ To download ❗', url=await get_tutorial(chat_id)),
-                        InlineKeyboardButton('❕ NEW HD MOVIE'S ❕', url='https://t.me/+D7L-rX9lKA43MGRl')
+                        InlineKeyboardButton(' NEW HD MOVIE'S ', url='https://t.me/+D7L-rX9lKA43MGRl')
                     ]
                 ]
             )
@@ -371,7 +371,7 @@ async def start(client, message):
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
                             InlineKeyboardButton('❗ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ❗', url=await get_tutorial(chat_id)),
-                            InlineKeyboardButton('❕ NEW HD MOVIE'S ❕', url='https://t.me/+D7L-rX9lKA43MGRl')
+                            InlineKeyboardButton(' NEW HD MOVIE'S ', url='https://t.me/+D7L-rX9lKA43MGRl')
                         ]
                     ]
                 )
